@@ -10,6 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">    
 </head>
 
 
@@ -17,6 +18,7 @@
 <body>
     <header>
         <div class="container">
+        <!-- Navigation -->
             <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body rounded-5 m-3" data-bs-theme="dark">
 
                 <div class="container-fluid mx-5 my-1">
@@ -33,30 +35,139 @@
                     <div class="collapse navbar-collapse" id="navbarScroll">
                         <ul class="navbar-nav ms-auto p-1 m-3 my-2 my-lg-0 navbar-nav-scroll"
                             style="--bs-scroll-height: 100px;">
-                            <li class="nav-item">
+                            <li class="nav-item mx-4">
                                 <a class="nav-link active" aria-current="page" href="#">Accueil</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item mx-4">
                                 <a class="nav-link" href="#">Tournois</a>
                             </li>
 
                         </ul>
 
-                        <button class="btn btn-outline-light" type="submit">Search</button>
+                        <button class="btn btn-outline-light px-4" type="submit">Participer</button>
 
                     </div>
                 </div>
             </nav>
         </div>
+        
+        <img src="./ressources-684942718d4f4627341671/banner desktop.png" class = "img-fluid" alt="banner image"/>
+
+        
+        <!-- Paragraph-->
+        <article class="custom-margins">
+        <h2 class="text-center text-justify text-white m-4">Qu'est-ce que <small class="text-warning">Nexus Clash?</small></h2>
+        <!-- Paragraph Body -->
+        <p class="text-center text-justify text-white">
+        dictumst libero felis turpis neque enim leo proin porttitor ut et elementum dictum morbi in augue massa ridiculus feugiat porttitor velit in commodo feugiat est adipiscing integer in nisl interdum in nisl ornare maecenas a sed ullamcorper ornare malesuada vel enim sagittis bibendum hendrerit bibendum pellentesque ac eu at consequat id arcu tempus erat bibendum massa viverra porttitor vitae aliquet sed bibendum faucibus in libero tortor et diam massa nisl aliquet quis eget mauris sed ultricies facilisis tempus nulla in proin ullamcorper mx-auto px-1.</p>
+        </article> 
 
 
 
+        <!-- Card Heading -->
+        <article>
+        <h2 class="text-center text-justify text-white m-4"> <small class="text-warning">Prochaine</small> edition</h2>
+        </article>
+        <!-- Individual Cards -->
+        <div class="d-flex align-items-center justify-content-center flex-wrap gap-3">
+        <div class="card hover-effect" style="width: 12rem;">
+            <img src="./ressources-684942718d4f4627341671/card-image-1.png" class="card-img-top" alt="image-1-baskethoop"/>
+            <div class="card-body">
+            <p class="card-text text-center text-white">5 000€ de <span class="underline"> <br> spectateurs</span>
+            </p>
+            </div>
+        </div>
 
-        <h1>Hello, world!</h1>
-        <p class="paratext"></p>
-        <section class="cards"></section>
-        <section class="from"></section>
-        <footer></footer>
+        <div class="card hover-effect" style="width: 12rem;">
+            <img src="./ressources-684942718d4f4627341671/card-image-2.png" class="card-img-top" alt="image-1-baskethoop"/>
+            <div class="card-body">
+            <p class="card-text text-center text-white">16 jeux <br> <span class="underline">selectionnes</span>
+            </p>
+            </div>
+        </div>
+
+
+        <div class="card hover-effect" style="width: 12rem;">
+            <img src="./ressources-684942718d4f4627341671/card-image-3.png" class="card-img-top" alt="image-1-baskethoop"/>
+            <div class="card-body">
+            <p class="card-text text-center text-justify text-white">128 joueurs <br> <span class="underline">participants</span></p>
+            </div>
+        </div>
+
+
+        <div class="card hover-effect" style="width: 12rem;">
+            <img src="./ressources-684942718d4f4627341671/card-image-4.png" class="card-img-top" alt="image-1-baskethoop"/>
+            <div class="card-body">
+            <p class="card-text text-center text-justify text-white">50 000 <br> <span class="underline">spectateurs</span></p>
+            </div>
+        </div>
+
+        <div class="card hover-effect" style="width: 12rem;">
+            <img src="./ressources-684942718d4f4627341671/card-image-5.png" class="card-img-top" alt="image-1-baskethoop"/>
+            <div class="card-body">
+            <p class="card-text text-center text-justify text-white">1 salle <br> <span class="underline">4 arenes</span></p>
+            </div>
+        </div>
+        </div>
+
+        <!-- Form -->
+        <!-- <div class="contents-form m-auto my-5 col-8 justify-content-center "> -->
+        <div class="contents-form my-5 mx-3 mx-md-auto col-12 col-md-8 justify-content-center">    
+        <div class="row justify-content-center my-5 px-4">
+        <div class="col-md-8">
+        <form class="row g-4">
+        <h3 class="text-white text-center ">Participer a Nexus Clash</h3>    
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label text-white">Prenom</label>
+            <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label text-white">Nom</label>
+            <input type="password" class="form-control" id="inputPassword4">
+        </div>
+
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label text-white">Psydonynome</label>
+            <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label text-white">Addresse e-mail</label>
+            <input type="password" class="form-control" id="inputPassword4">
+        </div>
+    
+        <div class="col-12">
+            <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label text-white" for="gridCheck">
+            J’accepte que mes donnees soient enregistrees, conformement a
+            la politique de confidentialite
+            </label>
+            </div>
+        </div>
+        <div class="col-12 text-center">
+            <button type="submit" class="btn btn-outline-light px-4 justify-content-center mx-5 px-4">Participer</button>
+        </div>
+        </form>
+        </div>
+        </div>
+        </div>
+
+
+    
+    </div>
+    
+    <footer class=" text-white text-center py-3">
+    <div class="container px-3">
+    <img src="./ressources-684942718d4f4627341671/logo.svg" alt="Logo" width="40" height="40" class="d-inline-block align-text-top"> <span class= "row text-white"> Nexus Clash </span>
+    <div class="row text-white text-center">
+    <div class="col-12 col-sm-6 mb-2 mb-sm-0">Mentions Légales</div>
+    <div class="col-12 col-sm-6">Politique de Confidentialité</div>
+    </div>
+    </div>
+    </footer>
+
+
+
 </body>
 
 </html>

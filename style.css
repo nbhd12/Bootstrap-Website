@@ -1,0 +1,37 @@
+body{
+    /* background-color: #121212; */
+    background: linear-gradient(0deg, #351062, #1b0c2d, #100b15, #121212);
+}
+
+.custom-margins{
+    margin: 40px 400px;
+}
+
+.card{
+    background-color: black;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.hover-effect:hover {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.267);
+    background: linear-gradient(to right, #1b1919, #3b3b3b);;
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out ;
+}
+
+
+.underline{
+    border-bottom: 2px solid #FFEB3B;
+}
+
+
+.contents-form{
+    background: linear-gradient(75deg, #c3c3c33f, #1b0c2d25, #e2e2e258, #ffffff41);
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+}
