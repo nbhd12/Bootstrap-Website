@@ -3,9 +3,6 @@ body{
     background: linear-gradient(0deg, #351062, #1b0c2d, #100b15, #121212);
 }
 
-.custom-margins{
-    margin: 40px 400px;
-}
 
 .card{
     background-color: black;
@@ -25,6 +22,10 @@ body{
 }
 
 
+.active:hover{
+    text-decoration: underline;
+}
+
 .underline{
     border-bottom: 2px solid #FFEB3B;
 }
@@ -35,3 +36,31 @@ body{
     border: 1px solid #ffffff;
     border-radius: 15px;
 }
+
+.font{
+    font-family: "orbitron";
+}
+
+.accent{
+    color: #FFEB3B;
+}
+
+.fontone{
+    font-family: "Montserrat";
+}
+
+.fonttwo{
+    font-size: 14px;
+    font-family: "montserrat";
+}
+
+.navnav{
+    background-color: #4a148c75;
+    border: 1px solid gray;
+    
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
