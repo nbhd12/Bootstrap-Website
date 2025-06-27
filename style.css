@@ -1,17 +1,20 @@
-body{
+body {
     /* background-color: #121212; */
     background: linear-gradient(0deg, #351062, #1b0c2d, #100b15, #121212);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
 }
 
 
-.card{
+.card {
     background-color: black;
     border: 1px solid #ffffff;
     border-radius: 12px;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #000000; 
+    background: -webkit-linear-gradient(to right, #434343, #000000); 
+    background: linear-gradient(to right, #434343, #000000); 
 }
 
 .hover-effect:hover {
@@ -22,39 +25,39 @@ body{
 }
 
 
-.active:hover{
+.active:hover {
     text-decoration: underline;
 }
 
-.underline{
+.underline {
     border-bottom: 2px solid #FFEB3B;
 }
 
 
-.contents-form{
+.contents-form {
     background: linear-gradient(75deg, #c3c3c33f, #1b0c2d25, #e2e2e258, #ffffff41);
     border: 1px solid #ffffff;
     border-radius: 15px;
 }
 
-.font{
+.font {
     font-family: "orbitron";
 }
 
-.accent{
+.accent {
     color: #FFEB3B;
 }
 
-.fontone{
+.fontone {
     font-family: "Montserrat";
 }
 
-.fonttwo{
+.fonttwo {
     font-size: 14px;
     font-family: "montserrat";
 }
 
-.navnav{
+.navnav {
     background-color: #4a148c75;
     border: 1px solid gray;
     
@@ -62,5 +65,22 @@ body{
 
 html {
   scroll-behavior: smooth;
+}
+
+.mbanner {
+display: none;
+
+}
+
+
+@media (max-width: 480px) {
+  .dbanner {
+    display: none;
+  }
+  .mbanner {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
 }
 
