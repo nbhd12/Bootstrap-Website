@@ -22,7 +22,7 @@ Les **couleurs graphiques** et **polices thématiques** ont été fournies, et i
 
 ---
 
-## 🧩 Website – Bootstrap Integration (EN)
+## Website – Bootstrap Integration (EN)
 
 This is a **responsive website** built using **Bootstrap**, based on a layout designed in **Figma**.  
 The **graphic colors** and **themed fonts** were provided by the client and carefully implemented throughout the site.
